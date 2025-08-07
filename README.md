@@ -1,27 +1,85 @@
-### Análisis de Acceso a Internet en Argentina
-**Propósito del Proyecto**
-Este proyecto presenta un análisis exploratorio del comportamiento del sector de servicios de internet en Argentina, con foco en el acceso a internet y su evolución a lo largo del tiempo. El objetivo principal es identificar tendencias, diferencias regionales y oportunidades de mejora en la conectividad.
-**Estructura del Proyecto**
-- Datos y Fuentes- Los datos provienen de ENACOM - Datos Abiertos, que incluye indicadores clave sobre conectividad, velocidades de conexión y tecnologías utilizadas en diversas regiones del país.
 
-- Metodología- Análisis Exploratorio de Datos (EDA) realizado con herramientas como Python (pandas, matplotlib, seaborn) y Power BI para visualizaciones interactivas.
+# 📡 Análisis del Acceso a Internet en Argentina (2018–2024)
 
-- Estructura de Archivos- /scripts: Contiene scripts de procesamiento y análisis.
-- /data: Dataset descargado desde ENACOM, limpiado y preparado para el análisis.
-- /outputs: Visualizaciones, gráficos y reportes generados.
+## 🎯 Propósito del Proyecto
+Este proyecto analiza el comportamiento del sector de servicios de Internet en Argentina, enfocándose en la evolución del acceso, las velocidades de conexión y las tecnologías implementadas a lo largo del tiempo. El objetivo es identificar tendencias, brechas regionales y oportunidades estratégicas de mejora en la conectividad nacional.
 
+---
 
-📈 Insights del Análisis Exploratorio (EDA)
-Este análisis profundizó en la evolución y el panorama actual de los servicios de internet en Argentina desde 2018, destacando tendencias clave y cambios significativos:
-- Evolución de accesos (2018-2024): Desde 2018, se observó un crecimiento sostenido en la cantidad de accesos, con un incremento acelerado desde la pandemia en 2020.
-- Avance tecnológico: La fibra óptica lidera el crecimiento entre las tecnologías, marcando una transición hacia servicios modernos y estables.
-- Velocidades de conexión: Las conexiones superiores a 30 Mbps crecieron considerablemente, mientras que las de menor velocidad (hasta 6 Mbps) prácticamente desaparecieron hacia 2024.
-- Distribución geográfica: Buenos Aires domina en cantidad de accesos, mientras provincias como CABA, San Luis y La Pampa lideran en penetración y calidad.
-- Crecimiento regional: Provincias como San Luis y Catamarca destacaron por su notable avance en conectividad, reduciendo brechas digitales.
+## 📁 Estructura del Proyecto
 
-🏁 Conclusión Estratégica y Oportunidades Regionales
-El análisis a nivel nacional evidenció una expansión sostenida en los accesos a Internet, configurando un mercado dinámico con oportunidades estratégicas por región:
-- Buenos Aires y CABA: Mercados maduros con posibilidades de diferenciación y mejora de experiencia del usuario.
-- San Luis: Modelo de desarrollo exitoso, replicable en otras provincias.
-- Catamarca, Misiones y Jujuy: Zonas emergentes con alto potencial de crecimiento e inversión.
+```
+📦 PROYECTO INDIVIDUAL P02
+├── 📂 dashboard
+│   └── Dashboard Servicio de Internet Argentino.pbix  → Visualización interactiva en Power BI
+├── 📂 DataSet
+│   └── ...                                            → Datos originales y limpios (CSV)
+├── 📂 entorno_PI02
+│   └── ...                                            → Archivos de entorno y configuración
+├── 📂 notebook
+│   ├── EDA.ipynb                                      → Análisis exploratorio de datos
+│   └── ETL.ipynb                                      → Proceso de extracción, transformación y carga
+├── .gitignore                                         → Exclusión de archivos en control de versiones
+├── Diccionario de datos PIDA.pdf                      → Documentación de variables
+└── README.md                                          → Documentación general del proyecto
+```
 
+---
+
+## 🛠️ Herramientas y Librerías
+
+**Lenguaje y Entornos:**
+- Python 3.10+
+- Power BI Desktop
+- VS Code + Jupyter Notebooks
+
+**Librerías principales en Python:**
+- `pandas`: Limpieza y manipulación de datos tabulares
+- `numpy`: Operaciones numéricas
+- `matplotlib` y `seaborn`: Visualización de datos
+
+**Otros recursos:**
+- Git y GitHub para control de versiones
+
+---
+
+## 📊 Dashboard Interactivo
+
+El proyecto incluye un dashboard en Power BI con visualizaciones dinámicas que permiten analizar:
+
+- Evolución anual de accesos por velocidad y tecnología
+- Penetración por hogar y por habitante a nivel regional
+- Comparación de crecimiento porcentual por períodos
+- Velocidad promedio por provincia
+
+---
+
+## 🔍 Principales Insights del Análisis (EDA)
+
+El análisis exploró datos desde 2018 hasta 2024, revelando:
+
+- **📈 Crecimiento sostenido:** Acelerado desde la pandemia (2020), especialmente en accesos de mayor velocidad.
+- **⚡ Transición tecnológica:** Predominio creciente de fibra óptica frente a tecnologías obsoletas.
+- **🚀 Mejora en velocidades:** Las conexiones superiores a 30 Mbps se consolidan como estándar. Las de <6 Mbps prácticamente desaparecen en 2024.
+- **🌍 Desigualdad regional:**  
+  - Buenos Aires domina en volumen absoluto.  
+  - CABA, San Luis y La Pampa destacan por su penetración y calidad.  
+  - Catamarca, Misiones y Jujuy muestran avances acelerados.
+
+---
+
+## 🧭 Conclusiones Estratégicas
+
+- **Buenos Aires y CABA:** Mercados maduros donde se sugiere invertir en diferenciación y experiencia del usuario.
+- **San Luis:** Caso ejemplar en políticas públicas de conectividad. Modelo replicable en otras provincias.
+- **Catamarca, Misiones y Jujuy:** Zonas emergentes con alto potencial para inversiones estratégicas en infraestructura digital.
+
+---
+
+## ✍️ Autor
+
+**Alejandro Oldra**  
+Especialista en marketing y ciencia de datos.  
+Apasionado por transformar datos en decisiones estratégicas.
+
+---
